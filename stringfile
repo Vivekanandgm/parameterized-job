@@ -1,5 +1,5 @@
 pipeline {
-     agent { label 'slave002' }
+     agent any
 parameters {
   string defaultValue: 'vivek', description: 'choose your name', name: 'name', trim: true
 }
