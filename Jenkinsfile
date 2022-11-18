@@ -6,8 +6,8 @@ pipeline {
     stages {
         stage ('parameter') {
             steps {
-                echo "Hi ${name} Welcome to Jenkins"
+                echo "Hi ${name}, Welcome to Jenkins"
            }
-       }
-    }
+        }
+    }
 }
